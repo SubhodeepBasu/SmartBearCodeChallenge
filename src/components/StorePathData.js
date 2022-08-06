@@ -34,6 +34,7 @@ const StorePathData = () => {
         <div className={classes.storePathDetails}>
           <button onClick={closePathDetailsHandler}>close path details</button>
           <h1>{uniquePathName}</h1>
+
           <UniquePath uniquePathData={uniquePathData} />
         </div>
       )}
