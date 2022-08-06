@@ -20,9 +20,11 @@ const UniquePath = (props) => {
       {uniquePathData.map((pathData) => (
         <div key={pathData[0]} className={classes.uniquePath}>
           <h2>Method: {pathData[0]}</h2>
-          <button onClick={showDetailsHandler.bind(this, pathData[0])}>
-            {showDetails === pathData[0] ? "-" : "+"}
-          </button>
+          <div className={classes.upButton}>
+            <button onClick={showDetailsHandler.bind(this, pathData[0])}>
+              {showDetails === pathData[0] ? "-" : "+"}
+            </button>
+          </div>
           {showDetails === pathData[0] && (
             <div>
               <PathParameters parameters={pathData[1].parameters} />

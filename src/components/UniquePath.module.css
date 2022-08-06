@@ -2,7 +2,12 @@
   margin-bottom: 100px;
 }
 
-.uniquePath button {
-  float: left;
-  font-size: 20px;
+.upButton button {
+  font-size: 14px !important;
+  float: none !important;
+  border-radius: 50% !important;
+}
+
+.upButton button:hover {
+  font-size: 18px !important;
 }
