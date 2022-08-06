@@ -1,0 +1,22 @@
+.overlay {
+  margin: auto;
+  width: 50%;
+  border-radius: 20px;
+  border-color: #03481c;
+  border-style: groove;
+  border-width: 10px;
+}
+
+.overlay h2,
+h3,
+p {
+  color: #83ed9f;
+}
+
+.overlay h3 {
+  text-decoration: underline;
+}
+
+.overlay a {
+  color: #e5f2e9;
+}

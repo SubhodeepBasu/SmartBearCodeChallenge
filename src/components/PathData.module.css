@@ -1,0 +1,23 @@
+.path a {
+  font-size: medium;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.path a:hover,
+.path a:active,
+.path a.active {
+  color: #83ed9f;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #83ed9f;
+}
+
+.path ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.path li {
+  margin-top: 8px;
+}

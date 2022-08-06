@@ -1,0 +1,21 @@
+.PTable {
+  margin-left: 30%;
+}
+.PTable table {
+  border: 2px solid #03481c;
+  width: 800px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.PTable th {
+  border-bottom: 1px solid #03481c;
+  color: white;
+  font-style: oblique;
+}
+
+.PTable td {
+  text-align: center;
+  color: white;
+  font-size: smaller;
+}

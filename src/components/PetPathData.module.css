@@ -1,0 +1,53 @@
+.petPath a {
+  font-size: medium;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+}
+.petPath h3 {
+  color: white;
+}
+.petPath h3:hover {
+  color: #83ed9f;
+  padding-bottom: 0.25rem;
+  cursor: pointer;
+}
+
+.petPath ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.petPath li {
+  margin-top: 8px;
+}
+
+.petpathDetails {
+  width: 95%;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 20px;
+  border-color: #03481c;
+  border-style: groove;
+  border-width: 8px;
+}
+
+.petpathDetails h1 {
+  font-style: italic;
+  padding-left: 100px;
+}
+
+.petpathDetails button {
+  background-color: #03481c;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  float: right;
+}
+
+.petpathDetails button:hover {
+  background-color: white;
+  color: #03481c;
+  font-size: 15px;
+}

@@ -1,0 +1,53 @@
+.storePath a {
+  font-size: medium;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+}
+.storePath h3 {
+  color: white;
+}
+.storePath h3:hover {
+  color: #83ed9f;
+  padding-bottom: 0.25rem;
+  cursor: pointer;
+}
+
+.storePath ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.storePath li {
+  margin-top: 8px;
+}
+
+.storePathDetails {
+  width: 95%;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 20px;
+  border-color: #03481c;
+  border-style: groove;
+  border-width: 8px;
+}
+
+.storePathDetails h1 {
+  font-style: italic;
+  padding-left: 100px;
+}
+
+.storePathDetails button {
+  background-color: #03481c;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  float: right;
+}
+
+.storePathDetails button:hover {
+  background-color: white;
+  color: #03481c;
+  font-size: 15px;
+}

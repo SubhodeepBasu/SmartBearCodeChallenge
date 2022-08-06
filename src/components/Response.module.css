@@ -1,0 +1,21 @@
+.RTable {
+  margin-left: 30%;
+}
+.RTable table {
+  border: 2px solid #03481c;
+  width: 800px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.RTable th {
+  border-bottom: 1px solid #03481c;
+  color: white;
+  font-style: oblique;
+}
+
+.RTable td {
+  text-align: center;
+  color: white;
+  font-size: smaller;
+}
