@@ -2,7 +2,7 @@
 
 
 ## Root Project Directory:
-PetStore
+SmartBearCodeChallenge
 
 ## Requirements:
 `Node Package Manager`(NPM 7.13.0) \
